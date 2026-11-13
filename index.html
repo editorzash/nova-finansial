@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nova – Keuangan Bisnis Tanpa Ribet</title>
+<style>
+:root{--bg:#05060f;--c:#10122a;--l:#23265a;--a:#00e5c3;--b:#8a5cff;--p:#ff4d8d;--t:#eef0ff;--m:#8c91c4}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--t);font-family:system-ui,Segoe UI,sans-serif;line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.glow{position:fixed;width:520px;height:520px;border-radius:50%;filter:blur(120px);opacity:.35;z-index:-1}
+.g1{background:var(--b);top:-160px;left:-120px}.g2{background:var(--a);top:300px;right:-200px;opacity:.22}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 6vw;max-width:1280px;margin:auto}
+.lg{font-weight:900;font-size:22px;letter-spacing:-1px}.lg b{color:var(--a)}
+.pill{padding:10px 22px;border-radius:99px;border:1px solid var(--l);font-size:14px;background:rgba(255,255,255,.04)}
+.hero{max-width:1280px;margin:auto;padding:70px 6vw 60px;text-align:center}
+.tag{display:inline-flex;gap:8px;align-items:center;padding:7px 16px;border-radius:99px;background:rgba(0,229,195,.1);border:1px solid rgba(0,229,195,.3);color:var(--a);font-size:13px}
+.hero h1{font-size:clamp(40px,7.5vw,96px);line-height:1;letter-spacing:-3px;margin:24px auto;max-width:1000px;font-weight:900}
+.hero h1 span{background:linear-gradient(100deg,var(--a),var(--b) 55%,var(--p));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--m);font-size:19px;max-width:560px;margin:auto}
+.cta{margin-top:34px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.b1{padding:16px 30px;border-radius:14px;background:linear-gradient(100deg,var(--a),var(--b));color:#03121a;font-weight:800}
+.b2{padding:16px 30px;border-radius:14px;border:1px solid var(--l)}
+.dash{max-width:980px;margin:60px auto 0;background:linear-gradient(180deg,var(--c),#0a0b1e);border:1px solid var(--l);border-radius:24px;padding:26px;text-align:left;box-shadow:0 40px 120px rgba(138,92,255,.25)}
+.dh{display:flex;justify-content:space-between;color:var(--m);font-size:14px;margin-bottom:18px}
+.kp{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:18px}
+.kp div{background:rgba(255,255,255,.04);border:1px solid var(--l);border-radius:14px;padding:16px}
+.kp small{color:var(--m)}.kp b{display:block;font-size:26px}
+.up{color:var(--a);font-size:13px}.dn{color:var(--p);font-size:13px}
+.bars{display:flex;align-items:flex-end;gap:10px;height:150px;padding:10px 0}
+.bars i{flex:1;border-radius:8px 8px 0 0;background:linear-gradient(180deg,var(--a),var(--b));opacity:.9}
+section{max-width:1280px;margin:auto;padding:90px 6vw}
+h2{font-size:clamp(30px,5vw,54px);letter-spacing:-2px;text-align:center;margin-bottom:50px;font-weight:900}
+.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.bx{background:var(--c);border:1px solid var(--l);border-radius:22px;padding:28px;min-height:200px;position:relative;overflow:hidden}
+.bx h3{font-size:22px;margin-bottom:8px}.bx p{color:var(--m);font-size:15px}
+.s2{grid-column:span 2}.s3{grid-column:span 3}.s4{grid-column:span 4}
+.bx em{font-style:normal;font-size:44px;display:block;margin-bottom:14px}
+.big{font-size:64px;font-weight:900;background:linear-gradient(100deg,var(--a),var(--p));-webkit-background-clip:text;background-clip:text;color:transparent}
+.logos{display:flex;justify-content:center;gap:50px;flex-wrap:wrap;color:var(--m);font-weight:800;letter-spacing:3px;opacity:.7;padding-bottom:40px}
+.price{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pc{background:var(--c);border:1px solid var(--l);border-radius:22px;padding:32px}
+.pc.hot{background:linear-gradient(160deg,#24196b,#10122a);border-color:var(--b)}
+.pc b{font-size:44px}.pc small{color:var(--m)}.pc ul{list-style:none;margin:20px 0;color:var(--m)}.pc li:before{content:"✓ ";color:var(--a)}
+.end{text-align:center;padding:100px 6vw}
+footer{text-align:center;color:var(--m);padding:30px;font-size:13px;border-top:1px solid var(--l)}
+@media(max-width:800px){.bento,.price,.kp{grid-template-columns:1fr}.s2,.s3,.s4{grid-column:auto}}
+</style></head><body>
+<div class="glow g1"></div><div class="glow g2"></div>
+<nav><a class="lg" href="#">nova<b>.</b></a><a class="pill" href="#harga">Mulai gratis</a></nav>
+<div class="hero"><span class="tag">● Baru: laporan arus kas otomatis</span>
+<h1>Uang bisnis Anda, <span>terlihat jelas.</span></h1>
+<p>Catat, pantau, dan kembangkan keuangan usaha dalam satu dasbor yang cepat dan cantik.</p>
+<div class="cta"><a class="b1" href="#harga">Coba 14 hari gratis</a><a class="b2" href="#fitur">Lihat fitur</a></div>
+<div class="dash"><div class="dh"><span>Ringkasan bulan ini</span><span>● Live</span></div>
+<div class="kp"><div><small>Pemasukan</small><b>Rp 184 jt</b><span class="up">▲ 12,4%</span></div><div><small>Pengeluaran</small><b>Rp 97 jt</b><span class="dn">▼ 3,1%</span></div><div><small>Saldo</small><b>Rp 87 jt</b><span class="up">▲ 21%</span></div></div>
+<div class="bars"><i style="height:35%"></i><i style="height:52%"></i><i style="height:44%"></i><i style="height:70%"></i><i style="height:58%"></i><i style="height:84%"></i><i style="height:66%"></i><i style="height:92%"></i><i style="height:78%"></i><i style="height:100%"></i></div></div></div>
+<div class="logos"><span>ARTHA</span><span>KOPITA</span><span>LOGIKA</span><span>BUMI.CO</span><span>SENTRA</span></div>
+<section id="fitur"><h2>Semua dalam satu layar</h2><div class="bento">
+<div class="bx s4"><em>📈</em><h3>Arus kas real-time</h3><p>Lihat uang masuk dan keluar saat itu juga, lengkap dengan prediksi 30 hari ke depan.</p></div>
+<div class="bx s2"><div class="big">99,9%</div><p>Uptime layanan sepanjang tahun</p></div>
+<div class="bx s2"><em>🧾</em><h3>Invoice cepat</h3><p>Kirim tagihan dalam 10 detik.</p></div>
+<div class="bx s2"><em>🔔</em><h3>Pengingat pintar</h3><p>Tidak ada tagihan terlewat.</p></div>
+<div class="bx s2"><em>🔒</em><h3>Aman</h3><p>Data terenkripsi end-to-end.</p></div>
+</div></section>
+<section id="harga"><h2>Harga sederhana</h2><div class="price">
+<div class="pc"><h3>Starter</h3><b>Gratis</b><ul><li>1 pengguna</li><li>Laporan dasar</li></ul><a class="b2" href="#">Pilih</a></div>
+<div class="pc hot"><h3>Growth</h3><b>99k</b><small>/bulan</small><ul><li>5 pengguna</li><li>Arus kas & invoice</li><li>Prioritas support</li></ul><a class="b1" href="#">Pilih</a></div>
+<div class="pc"><h3>Scale</h3><b>299k</b><small>/bulan</small><ul><li>Pengguna tak terbatas</li><li>Multi-cabang</li></ul><a class="b2" href="#">Pilih</a></div>
+</div></section>
+<div class="end"><h2>Rapikan keuangan hari ini.</h2><a class="b1" href="#">Mulai sekarang</a></div>
+<footer>© Nova · Halaman demo, angka hanya contoh</footer>
+</body></html>
